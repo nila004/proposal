@@ -134,7 +134,7 @@ Will you be mine?
 </div>
 
 <div id="finalScreen">
-<img src="yourphoto.jpg">
+<img src="pranav.jpeg">
 <div id="finalText">
 Access Granted.
 
@@ -204,7 +204,8 @@ typeTerminal();
 
 function checkPassword(){
 const pass=document.getElementById("passwordInput").value;
-if(pass.toLowerCase()=="us"){
+// accept "nilapranav" (case-insensitive) as the correct password
+if(pass.toLowerCase()=="nilapranav"){
 document.getElementById("passwordSection").classList.add("hidden");
 document.getElementById("terminal").innerHTML="";
 document.getElementById("questionSection").classList.remove("hidden");
